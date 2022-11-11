@@ -1,0 +1,33 @@
+body {
+    background-color: darkslateblue;
+}
+
+
+/* .container {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.content-body {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+button {
+    margin: 10px;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+#or {
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
