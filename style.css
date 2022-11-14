@@ -3,18 +3,13 @@ body {
 }
 
 
-/* .container {
-    display: flex;
-    justify-content: space-evenly;
-} */
-
 .content-body {
     color: white;
     font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 59px;
 }
 
 button {
@@ -30,4 +25,53 @@ button {
     color: white;
     font-size: 20px;
     margin: 15px;
+}
+
+#error {
+    display: flex;
+    color: darkorange;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+/* #game-container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#game {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+
+.cell {
+    background-color: mediumpurple;
+    width: 100px;
+    height: 100px;
+    /* font-size: 2rem; */
+    /* border: solid 1px black; */
+    /* border-radius: 2px; */
+}
+
+
+.reset,
+.iGiveUp {
+    background-color: rgb(172, 133, 251);
+    color: black;
+    border: solid 5px rgb(172, 133, 251);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 1px 1px 2px 1px;
+    margin-left: 0px;
+}
+
+.reset{
+    margin-top: 35px;
+    margin-left: 0px;
 }
